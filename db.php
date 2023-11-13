@@ -1,8 +1,8 @@
 <?php
-$host = "localhost"; // Cambia esto si tu base de datos no está en el mismo servidor
+$host = "localhost"; 
 $usuario = "root";
-$contrasena = "";
-$base_de_datos = "dbprueba";
+$contrasena = "0404rex";
+$base_de_datos = "proyectodb";
 
 $conexion = new mysqli($host, $usuario, $contrasena, $base_de_datos);
 
