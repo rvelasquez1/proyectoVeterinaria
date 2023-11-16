@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telefono = $_POST["telefono"];
     $email = $_POST["email"];
     
-    $sql = "UPDATE uclientes SET nombre='$nombre',p_apellido='$p_apellido',s_apellido='$s_apellido',telefono='$telefono', email='$email' WHERE id=$id";
+    $sql = "UPDATE clientes SET nombre='$nombre',p_apellido='$p_apellido',s_apellido='$s_apellido',telefono='$telefono', email='$email' WHERE id=$id";
     
     if ($conexion->query($sql) === TRUE) {
         echo "Registro actualizado exitosamente.";

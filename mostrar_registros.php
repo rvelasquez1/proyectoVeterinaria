@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Listado de Usuarios</title>
+    <title>Listado de clientes</title>
 </head>
 <body>
-    <h1>Listado de Usuarios</h1>
+    <h1>Listado de Clientes</h1>
     <?php
     include "db.php";
 

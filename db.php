@@ -2,7 +2,7 @@
 $host = "localhost"; 
 $usuario = "root";
 $contrasena = "0404rex";
-$base_de_datos = "proyectodb";
+$base_de_datos = "veterinaria";
 
 $conexion = new mysqli($host, $usuario, $contrasena, $base_de_datos);
 
